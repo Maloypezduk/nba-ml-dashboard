@@ -9,7 +9,7 @@ st.set_page_config(page_title="NBA Analytics ML Dashboard", layout="wide")
 st.title("🏀 Аналитическая система NBA на базе Машинного Обучения")
 
 # СТРОКА ПОДКЛЮЧЕНИЯ (ОБНОВЛЕННАЯ ПОД ВАШ СКУСШОТ)
-DB_URI="postgresql://postgres.dcvbbfojssgfkobqjvkw:q/t2+8YfFG4rjH2@aws-1-eu-west-1.pooler.supabase.com:5432/postgres"
+DB_URI="postgresql://postgres.dcvbbfojssgfkobqjvkw:R4QAZsRLM2bjxk8J@aws-1-eu-west-1.pooler.supabase.com:5432/postgres"
 
 @st.cache_data
 def load_data_from_db():
